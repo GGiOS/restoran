@@ -1,0 +1,21 @@
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "0NT-C1-Dob"; */
+"0NT-C1-Dob.title" = "Title";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "HEM-Qn-5AG"; */
+"HEM-Qn-5AG.text" = "Label";
+
+/* Class = "UISegmentedControl"; bZo-j8-Cph.segmentTitles[0] = "First"; ObjectID = "bZo-j8-Cph"; */
+"bZo-j8-Cph.segmentTitles[0]" = "First";
+
+/* Class = "UISegmentedControl"; bZo-j8-Cph.segmentTitles[1] = "Second"; ObjectID = "bZo-j8-Cph"; */
+"bZo-j8-Cph.segmentTitles[1]" = "Second";
+
+/* Class = "UILabel"; text = "x0"; ObjectID = "qIf-u8-KIi"; */
+"qIf-u8-KIi.text" = "x0";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "sxh-ec-BFU"; */
+"sxh-ec-BFU.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "t5n-WJ-4Ps"; */
+"t5n-WJ-4Ps.title" = " ";

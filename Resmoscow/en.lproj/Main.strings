@@ -1,0 +1,48 @@
+
+/* Class = "UIBarButtonItem"; title = "Очистить"; ObjectID = "10n-gq-rjo"; */
+"10n-gq-rjo.title" = "Очистить";
+
+/* Class = "UIBarButtonItem"; title = "EN"; ObjectID = "2mL-lX-Pxj"; */
+"2mL-lX-Pxj.title" = "EN";
+
+/* Class = "UIButton"; normalTitle = "Отправить"; ObjectID = "6Ea-Pj-ydV"; */
+"6Ea-Pj-ydV.normalTitle" = "Отправить";
+
+/* Class = "UILabel"; text = "Упаковать с собой"; ObjectID = "DyH-VQ-5it"; */
+"DyH-VQ-5it.text" = "Упаковать с собой";
+
+/* Class = "UILabel"; text = "Заказ на 15500"; ObjectID = "ERW-jK-9kv"; */
+"ERW-jK-9kv.text" = "Заказ на 15500";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "OMF-Ru-adh"; */
+"OMF-Ru-adh.title" = " ";
+
+/* Class = "UITabBarItem"; title = "Exit"; ObjectID = "PR9-DN-unh"; */
+"PR9-DN-unh.title" = "Exit";
+
+/* Class = "UINavigationItem"; title = "Menu"; ObjectID = "QhX-VR-BgM"; */
+"QhX-VR-BgM.title" = "Menu";
+
+/* Class = "UINavigationItem"; title = "Order"; ObjectID = "Y8x-nH-ZsL"; */
+"Y8x-nH-ZsL.title" = "Order";
+
+/* Class = "UITabBarItem"; title = "Hookah"; ObjectID = "YIm-y0-4S6"; */
+"YIm-y0-4S6.title" = "Hookah";
+
+/* Class = "UITabBarItem"; title = "Waiter"; ObjectID = "YOX-W7-fSu"; */
+"YOX-W7-fSu.title" = "Waiter";
+
+/* Class = "UITabBarItem"; title = "Order"; ObjectID = "gRC-2a-xMS"; */
+"gRC-2a-xMS.title" = "Order";
+
+/* Class = "UIButton"; normalTitle = "Комментарий"; ObjectID = "hqc-Iw-fjX"; */
+"hqc-Iw-fjX.normalTitle" = "Комментарий";
+
+/* Class = "UITabBarItem"; title = "Menu"; ObjectID = "nj8-ow-yzu"; */
+"nj8-ow-yzu.title" = "Menu";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "ruJ-bm-8js"; */
+"ruJ-bm-8js.title" = " ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "sff-uh-yAw"; */
+"sff-uh-yAw.text" = "Label";

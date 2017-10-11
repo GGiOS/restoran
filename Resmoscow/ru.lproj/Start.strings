@@ -1,0 +1,12 @@
+
+/* Class = "UIButton"; normalTitle = "Перейти в меню"; ObjectID = "ScD-3W-3Vd"; */
+"ScD-3W-3Vd.normalTitle" = "Перейти в меню";
+
+/* Class = "UITextField"; placeholder = "Количество гостей"; ObjectID = "Zcq-l6-fhW"; */
+"Zcq-l6-fhW.placeholder" = "Количество гостей";
+
+/* Class = "UITextField"; placeholder = "Код стола"; ObjectID = "aXY-To-NI1"; */
+"aXY-To-NI1.placeholder" = "Код стола";
+
+/* Class = "UITextField"; placeholder = "Код официанта"; ObjectID = "wSe-Os-zCc"; */
+"wSe-Os-zCc.placeholder" = "Код официанта";

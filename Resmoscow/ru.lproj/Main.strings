@@ -1,0 +1,18 @@
+
+/* Class = "UITabBarItem"; title = "Menu"; ObjectID = "PR9-DN-unh"; */
+"PR9-DN-unh.title" = "Меню";
+
+/* Class = "UINavigationItem"; title = "Menu"; ObjectID = "XKF-bX-bal"; */
+"XKF-bX-bal.title" = "Меню";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "YIm-y0-4S6"; */
+"YIm-y0-4S6.title" = "Item";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "YOX-W7-fSu"; */
+"YOX-W7-fSu.title" = "Item";
+
+/* Class = "UITabBarItem"; title = "Item 2"; ObjectID = "gRC-2a-xMS"; */
+"gRC-2a-xMS.title" = "Item 2";
+
+/* Class = "UITabBarItem"; title = "Item 1"; ObjectID = "nj8-ow-yzu"; */
+"nj8-ow-yzu.title" = "Item 1";

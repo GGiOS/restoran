@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="NoteView" customModule="Resmoscow" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="491" height="890"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yav-Ao-Qff">
+                    <rect key="frame" x="0.0" y="0.0" width="491" height="890"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XpN-AA-fWF">
+                            <rect key="frame" x="0.0" y="0.0" width="491" height="67"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Примечание" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0g9-bo-PWa">
+                                    <rect key="frame" x="95" y="21.5" width="300" height="32"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="300" id="Kg0-T7-53L"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="24"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nDR-EN-h64">
+                                    <rect key="frame" x="19" y="19" width="65" height="36"/>
+                                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="18"/>
+                                    <state key="normal" title="Отмена">
+                                        <color key="titleColor" red="0.95294117647058818" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="cancelButtonTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="36b-ZG-7ZI"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="nDR-EN-h64" firstAttribute="centerY" secondItem="0g9-bo-PWa" secondAttribute="centerY" id="4pM-EE-9Du"/>
+                                <constraint firstItem="0g9-bo-PWa" firstAttribute="centerX" secondItem="XpN-AA-fWF" secondAttribute="centerX" id="Iws-zQ-J1b"/>
+                                <constraint firstItem="nDR-EN-h64" firstAttribute="leading" secondItem="XpN-AA-fWF" secondAttribute="leading" constant="19" id="LPi-vd-jJc"/>
+                                <constraint firstItem="0g9-bo-PWa" firstAttribute="centerY" secondItem="XpN-AA-fWF" secondAttribute="centerY" constant="4" id="XM4-EH-cca"/>
+                                <constraint firstAttribute="height" constant="67" id="w87-cp-Nu1"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bm5-qN-DZJ">
+                            <rect key="frame" x="-3" y="816" width="497" height="74"/>
+                            <color key="backgroundColor" red="0.3411764706" green="0.64705882349999999" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="74" id="c6s-RH-tF0"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="22"/>
+                            <state key="normal" title="Добавить в заказ">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="addToOrderButtonTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="1tG-Ol-x5G"/>
+                            </connections>
+                        </button>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="CMm-2w-JlB">
+                            <rect key="frame" x="0.0" y="67" width="491" height="749"/>
+                            <color key="backgroundColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </tableView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="CMm-2w-JlB" firstAttribute="top" secondItem="XpN-AA-fWF" secondAttribute="bottom" id="415-Qv-z3y"/>
+                        <constraint firstItem="XpN-AA-fWF" firstAttribute="top" secondItem="Yav-Ao-Qff" secondAttribute="top" id="4RS-tC-LAn"/>
+                        <constraint firstItem="CMm-2w-JlB" firstAttribute="leading" secondItem="Yav-Ao-Qff" secondAttribute="leading" id="8gh-zT-LkB"/>
+                        <constraint firstAttribute="trailing" secondItem="bm5-qN-DZJ" secondAttribute="trailing" constant="-3" id="Cbk-sz-i32"/>
+                        <constraint firstAttribute="trailing" secondItem="XpN-AA-fWF" secondAttribute="trailing" id="R6H-nm-woc"/>
+                        <constraint firstItem="XpN-AA-fWF" firstAttribute="leading" secondItem="Yav-Ao-Qff" secondAttribute="leading" id="VPK-wX-hoq"/>
+                        <constraint firstAttribute="trailing" secondItem="CMm-2w-JlB" secondAttribute="trailing" id="cqM-dP-krF"/>
+                        <constraint firstAttribute="bottom" secondItem="bm5-qN-DZJ" secondAttribute="bottom" id="dEu-yg-Tq8"/>
+                        <constraint firstItem="bm5-qN-DZJ" firstAttribute="top" secondItem="CMm-2w-JlB" secondAttribute="bottom" id="ea5-gw-BeE"/>
+                        <constraint firstItem="bm5-qN-DZJ" firstAttribute="leading" secondItem="Yav-Ao-Qff" secondAttribute="leading" constant="-3" id="o2H-Z9-L0g"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="16"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Yav-Ao-Qff" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="1ft-q7-jSB"/>
+                <constraint firstAttribute="bottom" secondItem="Yav-Ao-Qff" secondAttribute="bottom" id="3ko-Ll-cak"/>
+                <constraint firstItem="Yav-Ao-Qff" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="96i-W6-UcI"/>
+                <constraint firstAttribute="trailing" secondItem="Yav-Ao-Qff" secondAttribute="trailing" id="Sqk-TB-Id8"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="size" keyPath="layer.shadowOffset">
+                    <size key="value" width="0.0" height="5"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.shadowOpacity">
+                    <real key="value" value="0.20000000000000001"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.shadowRadius">
+                    <integer key="value" value="2"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                    <integer key="value" value="16"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="addToOrderButton" destination="bm5-qN-DZJ" id="lC8-ux-7yV"/>
+                <outlet property="cancelButton" destination="nDR-EN-h64" id="ckP-DO-TTD"/>
+                <outlet property="noteTitleLabel" destination="0g9-bo-PWa" id="IPX-RC-R1O"/>
+                <outlet property="tableView" destination="CMm-2w-JlB" id="dFy-mh-nFe"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="53.5"/>
+        </view>
+    </objects>
+</document>

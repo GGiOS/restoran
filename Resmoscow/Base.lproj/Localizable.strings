@@ -1,0 +1,61 @@
+/* 
+  Localizable.strings
+  Resmoscow
+
+  Created by Egor Galaev on 19/04/17.
+  Copyright © 2017 KRIT. All rights reserved.
+*/
+
+"Menu" = "Menu";
+"Order" = "Order";
+"Waiter" = "Waiter";
+"Hookah" = "Hookah";
+"Exit" = "Exit";
+
+"Back to the menu" = "Back to the menu";
+"Call a hookah" = "Call a hookah";
+"Call the waiter" = "Call the waiter";
+"Thanks for your order!" = "Thanks for your order!";
+"Make an order?" = "Make an order?";
+"Are you sure you want to delete all items from your order?" = "Are you sure you want to delete all items from your order?";
+"There is nothing in your order. Go to the Menu and add the items you are interested in to the order." = "There is nothing in your order. Go to the Menu and add the items you are interested in to the order.";
+"Addition to the order" = "Addition to the order";
+"Comment can not be empty" = "Comment can not be empty";
+"Invalid waiter ID" = "Invalid waiter ID";
+"To exit the menu, enter the waiter code:" = "To exit the menu, enter the waiter code:";
+
+"Waiter.info" = "Click \"Call the waiter\" and soon you will be approached by the first vacant waiter.";
+"Hookah.info" = "Click \"Call a hookah\" and soon you will be approached by the first vacant waiter.\n\nWe recommend banana tobacco on milk :)";
+"Ordered.info" = "We have received your order, now you will be approached by a waiter.\n\nWe offer you to call a hookah to spend this time in a pleasant atmosphere.";
+
+"Delete" = "Delete";
+"Clear" = "Clear";
+"Cancel" = "Cancel";
+"Add" = "Add";
+"Error. Try again" = "Error. Try again";
+"Yes" = "Yes";
+"Exit" = "Exit";
+
+"Waiter code" = "Waiter code";
+"Table code" = "Table code";
+"Number of guests" = "Number of guests";
+"Go to the menu" = "Go to the menu";
+
+"Write a comment" = "Write a comment";
+"Comment to the order" = "Comment to the order";
+"Order for" = "Order for";
+"Pack with you" = "Pack with you";
+"Comment" = "Comment";
+"Send" = "Send";
+
+"Soon you will be approached by a free waiter" = "Soon you will be approached by a free waiter";
+"Soon you will be approached by a free hookah" = "Soon you will be approached by a free hookah";
+"To place an order, add at least one item of interest from the menu" = "To place an order, add at least one item of interest from the menu";
+
+"Note" = "Note";
+"Add to order" = "Add to order";
+"Selection limit exceeded" = "Selection limit exceeded";
+
+
+
+

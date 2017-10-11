@@ -1,0 +1,60 @@
+/* 
+  Localizable.strings
+  Resmoscow
+
+  Created by Egor Galaev on 19/04/17.
+  Copyright © 2017 KRIT. All rights reserved.
+*/
+
+"Menu" = "Меню";
+"Order" = "Заказ";
+"Waiter" = "Официант";
+"Hookah" = "Кальянщик";
+"Exit" = "Выход";
+
+"Back to the menu" = "Вернуться в меню";
+"Call a hookah" = "Пригласить кальянщика";
+"Call the waiter" = "Пригласить официанта";
+"Thanks for your order!" = "Спасибо за заказ!";
+"Make an order?" = "Оформить заказ?";
+"Are you sure you want to delete all items from your order?" = "Вы действительно хотите удалить все позиции из вашего заказа?";
+"There is nothing in your order. Go to the Menu and add the items you are interested in to the order." = "В Вашем заказе ничего нет. Перейдите в Меню и добавьте интересующие Вас позиции в заказ.";
+"Addition to the order" = "Дополнение к заказу";
+"Comment can not be empty" = "Комментарий не может быть пустым";
+"Invalid waiter ID" = "Неверный идентификатор официанта";
+"To exit the menu, enter the waiter code:" = "Для выхода из меню введите код официанта:";
+
+"Waiter.info" = "Нажмите кнопку “Пригласить официанта” и в ближайшее время к вам подойдет первый освободившийся официант.";
+"Hookah.info" = "Нажмите кнопку “Пригласить кальянщика” и в ближайшее время к вам подойдет первый освободившийся кальянщик.\n\nРекомендуем банановый табак на молоке :)";
+"Ordered.info" = "Мы уже получили ваш заказ, сейчас к вам подойдет официант.\n\nПредлагаем вам пригласить кальянщика, чтобы провести это время в приятной атмосфере.";
+
+"Delete" = "Удалить";
+"Clear" = "Очистить";
+"Cancel" = "Отменить";
+"Add" = "Добавить";
+"Error. Try again" = "Ошибка. Попробуйте снова";
+"Yes" = "Да";
+"Exit" = "Выйти";
+
+"Waiter code" = "Код официанта";
+"Table code" = "Код стола";
+"Number of guests" = "Количество гостей";
+"Go to the menu" = "Перейти в меню";
+
+"Write a comment" = "Написать комментарий";
+"Comment to the order" = "Комментарий к заказу";
+"Order for" = "Заказ на";
+"Pack with you" = "Упаковать с собой";
+"Comment" = "Комментарий";
+"Send" = "Отправить";
+
+"Soon you will be approached by a free waiter" = "В ближайшее время к вам подойдет свободный официант";
+"Soon you will be approached by a free hookah" = "В ближайшее время к вам подойдет свободный кальянщик";
+"To place an order, add at least one item of interest from the menu" = "Для оформления заказа, добавьте хотя бы одну интересующую вас позицию из меню";
+
+"Note" = "Примечание";
+"Add to order" = "Добавить к заказу";
+"Selection limit exceeded" = "Превышен лимит выбора";
+
+
+
